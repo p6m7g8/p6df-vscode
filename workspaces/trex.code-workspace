@@ -4,5 +4,7 @@
 			"path": "../../../trexsolutions"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.pythonPath": "/Users/philip.gollucci/src/github.com/pyenv/pyenv/shims/python"
+	}
 }
