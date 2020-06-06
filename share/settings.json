@@ -1,0 +1,24 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "yaml.schemas": {
+        "file:///Users/philip.gollucci/.vscode/extensions/atlassian.atlascode-2.6.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.shellArgs.osx": [
+        "-li"
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "atlascode.jira.jqlList": [
+        {
+            "id": "ccd04074-390c-4a7f-b890-bfbf2b0015d1",
+            "enabled": true,
+            "name": "My trexcoe Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "43f43944-971d-43fd-a179-aed0d6e2cadd",
+            "monitor": true
+        }
+    ],
+}
