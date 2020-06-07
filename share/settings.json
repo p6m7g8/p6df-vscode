@@ -1,0 +1,37 @@
+{
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "cSpell.userWords": [
+    "CICD",
+    "Checkfor",
+    "association",
+    "awscdk",
+    "awslint",
+    "boto",
+    "check",
+    "compliance",
+    "ec",
+    "ec managedinstance association compliance status check",
+    "enis",
+    "flowlogs",
+    "gollucci",
+    "igws",
+    "imagebuilder",
+    "jsii",
+    "lcov",
+    "managedinstance",
+    "outdir",
+    "pacmak",
+    "status",
+    "trex",
+    "workdir"
+  ],
+  "gitlens.codeLens.authors.enabled": true,
+  "python.jediEnabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "yaml.schemas": {
+    "file:///Users/philip.gollucci/.vscode/extensions/atlassian.atlascode-2.6.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "window.zoomLevel": 1
+}
