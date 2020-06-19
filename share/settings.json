@@ -1,6 +1,9 @@
 {
 	"editor.cursorBlinking": "phase",
 	"editor.cursorStyle": "block",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
 	"sync.gist": "1ce5a577598ac7a8a65d9aa4bd651351",
 	"sync.autoDownload": true,
 	"sync.autoUpload": true,
@@ -22,4 +25,17 @@
 	"python.testing.pytestEnabled": true,
 	"python.testing.unittestEnabled": true,
 	"python.workspaceSymbols.enabled": true,
+	"python.formatting.autopep8Args": [
+		"--max-line-length",
+		"120",
+		"--experimental"
+	],
+	"python.formatting.yapfArgs": [
+		"--style",
+		"{based_on_style: chromium, indent_width: 20}"
+	],
+	"python.formatting.blackArgs": [
+		"--line-length",
+		"100"
+	]
 }
