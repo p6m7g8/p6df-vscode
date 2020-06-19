@@ -39,5 +39,10 @@
 		"100"
 	],
 	"editor.suggestSelection": "first",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"workbench.iconTheme": "vscode-icons",
+	"todo-tree.tree.showScanModeButton": false,
+	"yaml.schemas": {
+		"file:///Users/pgollucci/.vscode/extensions/atlassian.atlascode-2.6.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	}
 }
