@@ -1,0 +1,11 @@
+nose
+pylint
+prospector
+mypy
+pylama
+pydocstyle
+flake9
+bandit
+pycodestyle
+
+brew cask install kite
