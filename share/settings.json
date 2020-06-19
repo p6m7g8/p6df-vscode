@@ -1,4 +1,9 @@
 {
 	"editor.cursorBlinking": "phase",
-	"editor.cursorStyle": "block",
+    "editor.cursorStyle": "block",
+    "sync.gist": "1ce5a577598ac7a8a65d9aa4bd651351",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.forceDownload": true,
+    "sync.forceUpload": true,
 }
