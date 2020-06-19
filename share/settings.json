@@ -45,4 +45,19 @@
 	"yaml.schemas": {
 		"file:///Users/pgollucci/.vscode/extensions/atlassian.atlascode-2.6.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
 	}
+	"atlascode.jira.jqlList": [
+		{
+			"id": "49a8b943-6342-4640-8557-e4cbeb9382e7",
+			"enabled": true,
+			"name": "My trexcoe Issues",
+			"query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+			"siteId": "43f43944-971d-43fd-a179-aed0d6e2cadd",
+			"monitor": true
+		}
+	],
+	"vs-kubernetes": {
+		"vs-kubernetes.draft-path.mac": "/Users/pgollucci/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+		"vs-kubernetes.helm-path.mac": "/Users/pgollucci/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+	},
+	"shellcheck.enableQuickFix": true
 }
