@@ -1,0 +1,103 @@
+{
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "block",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "jest.enableSnapshotUpdateMessages": false,
+  "python.analysis.memory.keepLibraryLocalVariables": true,
+  "python.dataScience.disableJupyterAutoStart": true,
+  "python.dataScience.exportWithOutputEnabled": true,
+  "python.diagnostics.sourceMapsEnabled": false,
+  "python.disableInstallationCheck": true,
+  "python.linting.banditEnabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.prospectorEnabled": true,
+  "python.linting.pycodestyleEnabled": true,
+  "python.linting.pydocstyleEnabled": true,
+  "python.linting.pylamaEnabled": true,
+  "python.testing.nosetestsEnabled": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": true,
+  "python.workspaceSymbols.enabled": true,
+  "python.formatting.autopep8Args": [
+    "--max-line-length",
+    "120",
+    "--experimental"
+  ],
+  "python.formatting.yapfArgs": [
+    "--style",
+    "{based_on_style: chromium, indent_width: 20}"
+  ],
+  "python.formatting.blackArgs": ["--line-length", "100"],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "todo-tree.tree.showScanModeButton": false,
+  "yaml.schemas": {
+    "file:///Users/pgollucci/.vscode/extensions/atlassian.atlascode-2.6.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.jqlList": [
+    {
+      "id": "49a8b943-6342-4640-8557-e4cbeb9382e7",
+      "enabled": true,
+      "name": "My trexcoe Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "43f43944-971d-43fd-a179-aed0d6e2cadd",
+      "monitor": true
+    }
+  ],
+  "vs-kubernetes": {
+    "vs-kubernetes.draft-path.mac": "/Users/pgollucci/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vs-kubernetes.helm-path.mac": "/Users/pgollucci/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vs-kubernetes.minikube-path.mac": "/Users/pgollucci/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "remimarsal.prettier-now"
+  },
+  "shellcheck.enableQuickFix": true,
+  "aws.samcli.location": "/usr/local/bin/sam",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "workbench.iconTheme": "vscode-icons",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "python.languageServer": "Pylance",
+  "cSpell.userWords": [
+    "AISPL",
+    "AWSCDK",
+    "Amnz",
+    "Automations",
+    "Autoscaler",
+    "Bitnami",
+    "CVEs",
+    "Dependabot",
+    "ESNEXT",
+    "Fargate",
+    "Gitpod",
+    "Gitter",
+    "Graphana",
+    "Kubernetes",
+    "LLC's",
+    "LOGBUCKET",
+    "Mergify",
+    "Openshift",
+    "Remediations",
+    "SCPs",
+    "STIGs",
+    "accountprops",
+    "boto",
+    "cicd",
+    "devlib",
+    "envprops",
+    "imagebuilder",
+    "kube",
+    "networkprops",
+    "pylint",
+    "securityprops",
+    "trex",
+    "trexsolutions",
+    "zero'th"
+  ],
+  "window.zoomLevel": -1,
+  "aws.profile": "profile:trexcoe+Lab+Training+groups/Admin"
+}
