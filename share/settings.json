@@ -48,9 +48,22 @@
     }
   ],
   "vs-kubernetes": {
-    "vs-kubernetes.draft-path.mac": "/Users/pgollucci/.vs-kubernetes/tools/draft/darwin-amd64/draft",
-    "vs-kubernetes.helm-path.mac": "/Users/pgollucci/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-    "vs-kubernetes.minikube-path.mac": "/Users/pgollucci/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    "vs-kubernetes.namespace": "",
+    "vs-kubernetes.kubectl-path": "/usr/local/bin/kubectl",
+    "vs-kubernetes.helm-path": "/usr/local/bin/helm",
+    "vs-kubernetes.draft-path": "/usr/local/bin/draft",
+    "vs-kubernetes.minikube-path": "/usr/local/bin/minikube",
+    "vs-kubernetes.kubectlVersioning": "user-provided",
+    "vs-kubernetes.outputFormat": "yaml",
+    "vs-kubernetes.kubeconfig": "",
+    "vs-kubernetes.knownKubeconfigs": [],
+    "vs-kubernetes.autoCleanupOnDebugTerminate": false,
+    "vs-kubernetes.nodejs-autodetect-remote-root": true,
+    "vs-kubernetes.nodejs-remote-root": "",
+    "vs-kubernetes.nodejs-debug-port": 9229,
+    "checkForMinikubeUpgrade": true,
+    "logsDisplay": "webview",
+    "imageBuildTool": "Docker"
   },
   "[shellscript]": {
     "editor.defaultFormatter": "remimarsal.prettier-now"
