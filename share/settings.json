@@ -102,15 +102,17 @@
     "cicd",
     "devlib",
     "envprops",
+    "hostedzone",
     "imagebuilder",
     "kube",
     "networkprops",
     "pylint",
+    "rbac",
     "securityprops",
     "trex",
     "trexsolutions",
     "zero'th"
   ],
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 1,
   "aws.profile": "profile:trexcoe+Lab+Training+groups/Admin"
 }
