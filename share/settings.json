@@ -83,6 +83,7 @@
     "Autoscaler",
     "Bitnami",
     "CVEs",
+    "DAAS",
     "Dependabot",
     "ESNEXT",
     "Fargate",
@@ -98,21 +99,35 @@
     "SCPs",
     "STIGs",
     "accountprops",
+    "awscdktf",
     "boto",
     "cicd",
     "devlib",
     "envprops",
     "hostedzone",
     "imagebuilder",
+    "jira",
     "kube",
     "networkprops",
+    "pgsql",
+    "projen",
     "pylint",
     "rbac",
     "securityprops",
+    "sqlite",
+    "sqlserver",
     "trex",
     "trexsolutions",
     "zero'th"
   ],
   "window.zoomLevel": 1,
-  "aws.profile": "profile:trexcoe+Lab+Training+groups/Admin"
+  "jenkins-jack.jenkins.connections": [
+    {
+      "name": "default",
+      "uri": "http://127.0.0.1:8080",
+      "username": null,
+      "password": null,
+      "active": true
+    }
+  ]
 }
