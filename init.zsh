@@ -1,11 +1,10 @@
 # shellcheck shell=zsh
-p6df::modules::vscode::version() {
-  echo "0.0.1"
-}
+p6df::modules::vscode::version() { echo "0.0.1" }
 
 p6df::modules::vscode::deps() {
-
-  ModuleDeps=()
+  ModuleDeps=(
+    p6m7g8/p6df-python
+  )
 }
 
 p6df::modules::vscode::external::brew() {
