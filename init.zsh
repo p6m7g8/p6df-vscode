@@ -10,6 +10,8 @@
 p6df::modules::vscode::deps() {
   ModuleDeps=(
     p6m7g8/p6df-python
+    p6m7g8/p6df-perl
+    p6m7g8/p6df-go
   )
 }
 
@@ -49,6 +51,8 @@ p6df::modules::vscode::home::symlink() {
 ######################################################################
 p6df::modules::vscode::external::brew() {
 
+  brew install shfmt
+
   brew cask install kite
 }
 
@@ -61,21 +65,36 @@ p6df::modules::vscode::external::brew() {
 ######################################################################
 p6df::modules::vscode::langs() {
 
-  pip install -q nose
-  pip install -q pylint
-  pip install -q prospector
-  pip install -q mypy
-  pip install -q pylama
-  pip install -q pydocstyle
-  pip install -q flake9
-  pip install -q bandit
-  pip install -q pycodestyle
+  go get golang.org/x/tools/gopls@latest
 
-  pip install -q pep8
-  pip install --upgrade autopep8
-  pip install black
-  pip install yapf
-  pip install jedi
+  cpanm --force Perl::LanguageServer
+
+  code --install-extension alefragnani.Bookmarks
+  code --install-extension bierner.markdown-preview-github-styles
+  code --install-extension christian-kohler.path-intellisense
+  code --install-extension CoenraadS.bracket-pair-colorizer-2
+  code --install-extension dbaeumer.vscode-eslint
+  code --install-extension foxundermoon.shell-format
+  code --install-extension golang.go
+  code --install-extension GregorBiswanger.json2ts
+  code --install-extension hashicorp.terraform
+  code --install-extension ipedrazas.kubernetes-snippets
+  code --install-extension jmMeessen.jenkins-declarative-support
+  code --install-extension ms-python.python
+  code --install-extension ms-python.vscode-pylance
+  code --install-extension ms-vsliveshare.vsliveshare
+  code --install-extension ms-vsliveshare.vsliveshare-pack
+  code --install-extension naumovs.color-highlight
+  code --install-extension redhat.vscode-yaml
+  code --install-extension ritwickdey.LiveServer
+  code --install-extension shardulm94.trailing-spaces
+  code --install-extension shd101wyy.markdown-preview-enhanced
+  code --install-extension streetsidesoftware.code-spell-checker
+  code --install-extension timonwong.shellcheck
+  code --install-extension vscode-icons-team.vscode-icons
+  code --install-extension wayou.vscode-todo-highlight
+  code --install-extension yzane.markdown-pdf
+  code --install-extension yzhang.markdown-all-in-one
 }
 
 ######################################################################
