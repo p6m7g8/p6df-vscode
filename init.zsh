@@ -24,6 +24,9 @@ p6df::modules::vscode::deps() {
 ######################################################################
 p6df::modules::vscode::external::brew() {
 
+  brew install shfmt
+  brew cask install kite
+
   brew cask install visual-studio
   brew cask install visual-studio-code
   brew cask install visual-studio-code-insiders
@@ -40,20 +43,6 @@ p6df::modules::vscode::home::symlink() {
 
   ## fill in template
   ln -fs $P6_DFZ_SRC_P6M7G8_DIR/p6df-vscode/share/settings.json $HOME/Library/Applications\ Support/Code/User/settings.json
-}
-
-######################################################################
-#<
-#
-# Function: p6df::modules::vscode::external::brew()
-#
-#>
-######################################################################
-p6df::modules::vscode::external::brew() {
-
-  brew install shfmt
-
-  brew cask install kite
 }
 
 ######################################################################
@@ -105,5 +94,7 @@ p6df::modules::vscode::langs() {
 #>
 ######################################################################
 p6df::modules::vscode::init() {
-  true
+
+  alias ca='code -a .'
+  alias cn='code -n .'
 }
