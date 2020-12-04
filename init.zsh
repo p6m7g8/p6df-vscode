@@ -25,11 +25,11 @@ p6df::modules::vscode::deps() {
 p6df::modules::vscode::external::brew() {
 
   brew install shfmt
-  brew cask install kite
+  brew install --cask kite
 
-  brew cask install visual-studio
-  brew cask install visual-studio-code
-  brew cask install visual-studio-code-insiders
+  brew install --cask visual-studio
+  brew install --cask visual-studio-code
+  brew install --cask visual-studio-code-insiders
 }
 
 ######################################################################
@@ -54,9 +54,9 @@ p6df::modules::vscode::home::symlink() {
 ######################################################################
 p6df::modules::vscode::langs() {
 
-  go get golang.org/x/tools/gopls@latest
+  go get golang.org/x/tools/gopls
 
-  cpanm --force Perl::LanguageServer
+  cpanm --force --notest Perl::LanguageServer
 
   code --install-extension alefragnani.Bookmarks
   code --install-extension bierner.markdown-preview-github-styles
