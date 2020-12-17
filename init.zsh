@@ -9,9 +9,13 @@
 ######################################################################
 p6df::modules::vscode::deps() {
   ModuleDeps=(
+    p6m7g8/p6df-node
     p6m7g8/p6df-python
     p6m7g8/p6df-perl
     p6m7g8/p6df-go
+    p6m7g8/p6df-ruby
+    p6m7g8/p6df-java
+    p6m7g8/p6df-shell
   )
 }
 
@@ -95,6 +99,93 @@ p6df::modules::vscode::langs() {
 ######################################################################
 p6df::modules::vscode::init() {
 
-  alias ca='code -a .'
-  alias cn='code -n .'
+  p6df::modules::vscode::aliases::init
+}
+
+######################################################################
+#<
+#
+# Function: p6df::modules::vscode::aliases::init()
+#
+#>
+######################################################################
+p6df::modules::vscode::aliases::init() {
+
+  alias p6_ca="p6_vscode_tmux_add"
+  alias p6_cn="p6_vscode_new"
+}
+
+######################################################################
+#<
+#
+# Function: code rc = p6_vscode_cmd(cmd, ...)
+#
+#  Args:
+#	cmd -
+#	... - 
+#
+#  Returns:
+#	code - rc
+#
+#>
+######################################################################
+p6_vscode_cmd() {
+  local cmd="$1"
+  shift 1
+
+  local log_type
+  case $cmd in
+  *) log_type=p6_run_write_cmd ;;
+  esac
+
+  p6_run_code "$log_type code $cmd $*"
+  local rc=$?
+
+  p6_return_code_as_code "$rc"
+}
+
+######################################################################
+#<
+#
+# Function: p6_vscode_new([dir=.])
+#
+#  Args:
+#	OPTIONAL dir - [.]
+#
+#>
+######################################################################
+p6_vscode_new() {
+  local dir="${1:-.}"
+
+  p6_vscode_cmd -n "$dir"
+}
+
+######################################################################
+#<
+#
+# Function: p6_vscode_add([dir=.])
+#
+#  Args:
+#	OPTIONAL dir - [.]
+#
+#>
+######################################################################
+p6_vscode_add() {
+  local dir="${1:-.}"
+
+  p6_vscode_cmd -a "$dir"
+}
+
+######################################################################
+#<
+#
+# Function: p6_vscode_tmux_add()
+#
+#>
+######################################################################
+p6_vscode_tmux_add() {
+
+  local session="vscode-$(pwd | md5)"
+  p6_vscode_add "."
+  p6df::modules::shell::tmux::make "$session"
 }
