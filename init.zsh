@@ -67,6 +67,7 @@ p6df::modules::vscode::langs() {
   code --install-extension christian-kohler.path-intellisense
   code --install-extension CoenraadS.bracket-pair-colorizer-2
   code --install-extension dbaeumer.vscode-eslint
+  code --install-extension esbenp.prettier-vscode
   code --install-extension foxundermoon.shell-format
   code --install-extension golang.go
   code --install-extension GregorBiswanger.json2ts
