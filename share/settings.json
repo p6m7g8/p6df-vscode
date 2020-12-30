@@ -420,8 +420,11 @@
     "ztna"
   ],
   "shellcheck.enableQuickFix": true,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "breadcrumbs.enabled": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shellArgs.osx": [
+    "-li"
+  ],
   "terminal.integrated.shell.linux": "/bin/bash"
 }

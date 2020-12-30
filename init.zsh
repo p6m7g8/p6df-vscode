@@ -129,6 +129,13 @@ p6df::modules::vscode::init() {
   p6df::modules::vscode::aliases::init
 }
 
+######################################################################
+#<
+#
+# Function: p6df::modules::vscode::wakatime::init()
+#
+#>
+######################################################################
 p6df::modules::vscode::wakatime::init() {
 
   . $P6_DFZ_SRC_DIR/sobolevn/wakatime-zsh-plugin/wakatime.plugin.zsh
@@ -154,7 +161,7 @@ p6df::modules::vscode::aliases::init() {
 #
 #  Args:
 #	cmd -
-#	... -
+#	... - 
 #
 #  Returns:
 #	code - rc
