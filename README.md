@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6df-vscode:
+
+#### p6df-vscode/init.zsh:
 
 - code rc = p6_vscode_cmd(cmd, ...)
 - p6_vscode_add([dir=.])
