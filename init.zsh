@@ -67,6 +67,7 @@ p6df::modules::vscode::langs() {
 
   code --install-extension alefragnani.Bookmarks
   code --install-extension amazonwebservices.aws-toolkit-vscode
+  code --install-extension arcanis.vscode-zipfs
   code --install-extension aws-amplify.aws-amplify-vscode
   code --install-extension bierner.markdown-preview-github-styles
   code --install-extension christian-kohler.path-intellisense
@@ -78,6 +79,7 @@ p6df::modules::vscode::langs() {
   code --install-extension foxundermoon.shell-format
   code --install-extension GitHub.vscode-codeql
   code --install-extension GitHub.vscode-pull-request-github
+  code --install-extension golang.go
   code --install-extension GregorBiswanger.json2ts
   code --install-extension hashicorp.terraform
   code --install-extension hbenl.vscode-test-explorer
@@ -102,6 +104,8 @@ p6df::modules::vscode::langs() {
   code --install-extension sfodje.perltidy
   code --install-extension shardulm94.trailing-spaces
   code --install-extension shd101wyy.markdown-preview-enhanced
+  code --install-extension sneezry.vscode-devto
+  code --install-extension SonarSource.sonarlint-vscode
   code --install-extension streetsidesoftware.code-spell-checker
   code --install-extension thundra.thundra-debugger
   code --install-extension timonwong.shellcheck
@@ -113,7 +117,6 @@ p6df::modules::vscode::langs() {
   code --install-extension Wscats.cors-browser
   code --install-extension yzane.markdown-pdf
   code --install-extension yzhang.markdown-all-in-one
-
 }
 
 ######################################################################
