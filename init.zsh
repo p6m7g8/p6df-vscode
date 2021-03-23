@@ -101,17 +101,18 @@ p6df::modules::vscode::langs() {
   code --install-extension redhat.vscode-yaml
   code --install-extension richterger.perl
   code --install-extension ritwickdey.LiveServer
+  code --install-extension rust-lang.rust
   code --install-extension sfodje.perltidy
   code --install-extension shardulm94.trailing-spaces
   code --install-extension shd101wyy.markdown-preview-enhanced
   code --install-extension sneezry.vscode-devto
   code --install-extension SonarSource.sonarlint-vscode
   code --install-extension streetsidesoftware.code-spell-checker
+  code --install-extension TabNine.tabnine-vscode
   code --install-extension thundra.thundra-debugger
   code --install-extension timonwong.shellcheck
   code --install-extension VisualStudioExptTeam.vscodeintellicode
   code --install-extension vscode-aws-console.vscode-aws-console
-  code --install-extension vscode-icons-team.vscode-icons
   code --install-extension WakaTime.vscode-wakatime
   code --install-extension wayou.vscode-todo-highlight
   code --install-extension Wscats.cors-browser
