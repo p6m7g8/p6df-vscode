@@ -16,7 +16,7 @@ p6df::modules::vscode::deps() {
     p6m7g8/p6df-ruby
     p6m7g8/p6df-java
     p6m7g8/p6df-shell
-    sobolevn/wakatime-zsh-plugin
+    p6m7g8/p6df-wakatime
   )
 }
 
@@ -48,6 +48,7 @@ p6df::modules::vscode::home::symlink() {
 
   ## fill in template
   ln -fs $P6_DFZ_SRC_P6M7G8_DIR/p6df-vscode/share/settings.json $HOME/Library/Applications\ Support/Code/User/settings.json
+  ln -fs Library/Application\ Support/Code/User/globalStorage/.vscode .
 }
 
 ######################################################################
@@ -58,8 +59,6 @@ p6df::modules::vscode::home::symlink() {
 #>
 ######################################################################
 p6df::modules::vscode::langs() {
-
-  pip install wakatime
 
   go get golang.org/x/tools/gopls
 
@@ -113,7 +112,6 @@ p6df::modules::vscode::langs() {
   code --install-extension timonwong.shellcheck
   code --install-extension VisualStudioExptTeam.vscodeintellicode
   code --install-extension vscode-aws-console.vscode-aws-console
-  code --install-extension WakaTime.vscode-wakatime
   code --install-extension wayou.vscode-todo-highlight
   code --install-extension Wscats.cors-browser
   code --install-extension yzane.markdown-pdf
@@ -129,20 +127,7 @@ p6df::modules::vscode::langs() {
 ######################################################################
 p6df::modules::vscode::init() {
 
-  p6df::modules::vscode::wakatime::init
   p6df::modules::vscode::aliases::init
-}
-
-######################################################################
-#<
-#
-# Function: p6df::modules::vscode::wakatime::init()
-#
-#>
-######################################################################
-p6df::modules::vscode::wakatime::init() {
-
-  . $P6_DFZ_SRC_DIR/sobolevn/wakatime-zsh-plugin/wakatime.plugin.zsh
 }
 
 ######################################################################
