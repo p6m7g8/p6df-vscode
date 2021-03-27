@@ -54,7 +54,6 @@
 - p6df::modules::vscode::home::symlink()
 - p6df::modules::vscode::init()
 - p6df::modules::vscode::langs()
-- p6df::modules::vscode::wakatime::init()
 
 
 
