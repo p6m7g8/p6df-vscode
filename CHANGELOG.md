@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/p6m7g8/p6df-vscode/compare/v1.1.0...v1.1.1) (2021-04-04)
+
+
+### Features
+
+* **extensions:** adds rust-lang.rust ([#41](https://github.com/p6m7g8/p6df-vscode/issues/41)) ([2f5959f](https://github.com/p6m7g8/p6df-vscode/commit/2f5959f26d9887f6beee9a0ed50912e7295de67b))
+
+
+* **deps:** splits out wakatime ([#42](https://github.com/p6m7g8/p6df-vscode/issues/42)) ([aaf3a7b](https://github.com/p6m7g8/p6df-vscode/commit/aaf3a7b4436afcd358ff59838be2620375625cb8))
+* **dict:** sync ([#36](https://github.com/p6m7g8/p6df-vscode/issues/36)) ([f77ca6a](https://github.com/p6m7g8/p6df-vscode/commit/f77ca6a384832f8503591f60b7649d64ea52cbd4))
+* **README:** updates generator ([#38](https://github.com/p6m7g8/p6df-vscode/issues/38)) ([637027c](https://github.com/p6m7g8/p6df-vscode/commit/637027ca76eb9ade82fd53e63449c9608b3e5dad))
+* **settings:** syncs: adds sonarlint ([#40](https://github.com/p6m7g8/p6df-vscode/issues/40)) ([61f83c1](https://github.com/p6m7g8/p6df-vscode/commit/61f83c16b0768335615c482ae076f9574aa4aea6))
+* **vscode:** splits vscode extensions to their languages ([#43](https://github.com/p6m7g8/p6df-vscode/issues/43)) ([c74bb0f](https://github.com/p6m7g8/p6df-vscode/commit/c74bb0f3305302d4a40c0fcb0faacb2c71587c40))
+* Coc -> .github ([549be52](https://github.com/p6m7g8/p6df-vscode/commit/549be522abb7f36e7eabe6b7f784251c97f3306d))
+* sync ([#37](https://github.com/p6m7g8/p6df-vscode/issues/37)) ([36df464](https://github.com/p6m7g8/p6df-vscode/commit/36df464470f686667c9b713260c397a63e8e2cf3))
+* the great vscode indent of 2021 ([#39](https://github.com/p6m7g8/p6df-vscode/issues/39)) ([561a4a0](https://github.com/p6m7g8/p6df-vscode/commit/561a4a037ad0ec701f8656167ed5d869fceb89b0))
+
 ## [1.1.0](https://github.com/p6m7g8/p6df-vscode/compare/v1.0.0...v1.1.0) (2020-12-06)
 
 
