@@ -103,6 +103,7 @@
     "Korfmann",
     "Kubernetes",
     "LLC's",
+    "LOGBUCKET",
     "LONGDESC",
     "Lickel",
     "Lucida",
@@ -147,6 +148,7 @@
     "Yusubov",
     "accountprops",
     "alefragnani",
+    "amiamnz",
     "antitamper",
     "apisix",
     "apreq",
@@ -176,6 +178,7 @@
     "bitnami",
     "boggie",
     "boto",
+    "botocore",
     "browserslist",
     "camelcase",
     "cargs",
@@ -368,6 +371,7 @@
     "skorfmann",
     "slackprops",
     "smilectl",
+    "snyk",
     "soca",
     "spotblocks",
     "spotone",
@@ -448,4 +452,10 @@
       "filenamePattern": "*.ipynb"
     }
   ],
+  "aws.profile": "profile:P6+role/SSO/SSO_Admin",
+  "sonarlint.disableTelemetry": true,
+  "sonarlint.ls.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/",
+  "sonarlint.output.showAnalyzerLogs": true,
+  "sonarlint.output.showVerboseLogs": true,
+  "sonarlint.pathToNodeExecutable": "/Users/pgollucci/src/github.com/p6/nodenv/nodenv/shims/node",
 }
