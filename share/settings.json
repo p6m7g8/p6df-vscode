@@ -29,6 +29,10 @@
   "editor.minimap.enabled": false,
   "editor.tabCompletion": "on",
   "editor.suggestSelection": "first",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
   "eslint.format.enable": true,
   "eslint.alwaysShowStatus": true,
   "eslint.lintTask.enable": true,
@@ -38,7 +42,29 @@
   "python.languageServer": "Pylance",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.CustomBrowser": "chrome",
-  "workbench.iconTheme": "vscode-icons",
+  "shellcheck.enableQuickFix": true,
+  "shellcheck.customArgs": [
+    "-x"
+  ],
+  "breadcrumbs.enabled": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shellArgs.osx": [
+    "-li"
+  ],
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "python.pythonPath": "/Users/pgollucci/src/github.com/pyenv/pyenv/shims/python",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.lint.invalidConfigPath": "warning",
+  "tailwindCSS.lint.invalidTailwindDirective": "warning",
+  "tailwindCSS.lint.invalidVariant": "warning",
   "cSpell.userWords": [
     "Acount",
     "Affero",
@@ -117,6 +143,7 @@
     "Nodist",
     "Nuget",
     "Openshift",
+    "PNPM",
     "Pahud",
     "Palatte",
     "Pipfile",
@@ -140,6 +167,7 @@
     "TESTAVM",
     "TTFB",
     "Typedoc",
+    "Unbump",
     "Utpal",
     "Vercel",
     "Wakey",
@@ -194,6 +222,7 @@
     "cloudstructs",
     "cmds",
     "codecov",
+    "codecoverage",
     "codeql",
     "commited",
     "compat",
@@ -212,6 +241,7 @@
     "dependabot",
     "depname",
     "deps",
+    "devcontainer",
     "devlib",
     "devsecops",
     "docstrings",
@@ -253,6 +283,7 @@
     "iarna",
     "iliapolo",
     "imagebuilder",
+    "infile",
     "injectionn",
     "instanceconnectcli",
     "integ",
@@ -276,6 +307,7 @@
     "lcov",
     "libdir",
     "lockfiles",
+    "mangaging",
     "markdownlint",
     "markmac",
     "markusl",
@@ -290,6 +322,7 @@
     "mkdocs",
     "mmuller",
     "monospace",
+    "msapplication",
     "multiline",
     "mydist",
     "mygk",
@@ -343,6 +376,7 @@
     "pylance",
     "pylint",
     "pypi",
+    "pytest",
     "qload",
     "rarr",
     "rayou",
@@ -363,6 +397,8 @@
     "serivces",
     "servicecatalogue",
     "servicemanagement",
+    "setuppy",
+    "setuptools",
     "shardulm",
     "shellcheck",
     "shfmt",
@@ -391,6 +427,9 @@
     "subprojects",
     "subshell",
     "superchain",
+    "synthing",
+    "tailwindcss",
+    "tailwindui",
     "taimos",
     "taskcat",
     "techday",
@@ -417,7 +456,9 @@
     "unmocked",
     "unpushed",
     "untracked",
+    "urlparse",
     "valuesystem",
+    "venv",
     "versionrc",
     "virtualenv",
     "vmin",
@@ -434,28 +475,4 @@
     "zero'th",
     "ztna"
   ],
-  "shellcheck.enableQuickFix": true,
-  "shellcheck.customArgs": ["-x"],
-  "breadcrumbs.enabled": true,
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "terminal.integrated.shellArgs.osx": [
-    "-li"
-  ],
-  "terminal.integrated.shell.linux": "/bin/bash",
-  "python.pythonPath": "/Users/pgollucci/src/github.com/pyenv/pyenv/shims/python",
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
-  "vsicons.dontShowNewVersionMessage": true,
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
-  "aws.profile": "profile:P6+role/SSO/SSO_Admin",
-  "sonarlint.disableTelemetry": true,
-  "sonarlint.ls.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/",
-  "sonarlint.output.showAnalyzerLogs": true,
-  "sonarlint.output.showVerboseLogs": true,
-  "sonarlint.pathToNodeExecutable": "/Users/pgollucci/src/github.com/p6/nodenv/nodenv/shims/node",
 }
