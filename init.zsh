@@ -19,6 +19,7 @@ p6df::modules::vscode::deps() {
 #
 #>
 ######################################################################
+
 p6df::modules::vscode::vscodes() {
 
   # md
@@ -31,26 +32,32 @@ p6df::modules::vscode::vscodes() {
   code --install-extension redhat.vscode-yaml
 
   # ui
-  code --install-extension christian-kohler.path-intellisense
-  code --install-extension lfs.vscode-emacs-friendly
+  code --install-extension aaron-bond.better-comments
   code --install-extension alefragnani.Bookmarks
+  code --install-extension bibhasdn.unique-lines
+  code --install-extension christian-kohler.path-intellisense
   code --install-extension CoenraadS.bracket-pair-colorizer-2
+  code --install-extension lfs.vscode-emacs-friendly
   code --install-extension naumovs.color-highlight
   code --install-extension shardulm94.trailing-spaces
+  code --install-extension streetsidesoftware.code-spell-checker
+  code --install-extension v4run.transpose
   code --install-extension VisualStudioExptTeam.vscodeintellicode
   code --install-extension wayou.vscode-todo-highlight
-  code --install-extension streetsidesoftware.code-spell-checker
+  code --install-extension wmaurer.change-case
 
-  # misc
-  code --install-extension arcanis.vscode-zipfs
-  code --install-extension hbenl.vscode-test-explorer
+  # community/publishing
+  code --install-extension sneezry.vscode-devto
   code --install-extension ms-vsliveshare.vsliveshare
   code --install-extension ms-vsliveshare.vsliveshare-pack
   code --install-extension ritwickdey.LiveServer
-  code --install-extension sneezry.vscode-devto
+
+  # misc
+  code --install-extension arcanis.vscode-zipfs
+  code --install-extension esbenp.prettier-vscode
+  code --install-extension hbenl.vscode-test-explorer
   code --install-extension thundra.thundra-debugger
   code --install-extension Wscats.cors-browser
-  code --install-extension esbenp.prettier-vscode
 }
 
 ######################################################################
@@ -115,7 +122,7 @@ p6df::modules::vscode::aliases::init() {
 #
 #  Args:
 #	cmd -
-#	... - 
+#	... -
 #
 #  Returns:
 #	code - rc
